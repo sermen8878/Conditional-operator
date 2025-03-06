@@ -1,14 +1,14 @@
 public class Main {
     public static void main(String[] args) {
-        var totalSeats = 102;
-        var sittingSeats = 60;
-        var passengers = 85;
-        if (passengers < sittingSeats) {
-            System.out.println("В вагоне есть свободные сидячие места");
-        } else if (passengers < totalSeats) {
-            System.out.println("В вагоне есть свободные стоячие места");
+        int one = 10;
+        int two = 25;
+        int three = 15;
+        if (one >= two && one >= three) {
+            System.out.println("Наибольшее число: " + one);
+        } else if (two >= one && two >= three) {
+            System.out.println("Наибольшее число: " + two);
         } else {
-            System.out.println("Вагон полностью забит");
+            System.out.println("Наибольшее число: " + three);
         }
     }
 }
