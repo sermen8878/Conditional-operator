@@ -1,10 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        var age = 20;
-        if (age >= 18) {
-            System.out.println("Если возраст человека равен " + age + ", то он совершеннолетний");
+        var temperature = 3;
+        if (temperature < 5) {
+            System.out.println("На улице " + temperature + " градусов, нужно надеть шапку");
         } else {
-            System.out.println("Если возраст человека равен " + age + ", то он не достиг совершеннолетия, нужно немного подождать");
+            System.out.println("На улице " + temperature + " градусов, можно идти без шапки");
         }
     }
 }
